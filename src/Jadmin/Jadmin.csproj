@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
-    <AssemblyName>AdminLTE</AssemblyName>
+    <AssemblyName>Jadmin</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>AdminLTE</PackageId>
     <UserSecretsId>aspnet-AdminLTE-c9131f1e-93fb-4772-8c8b-1d4c77bf4354</UserSecretsId>
@@ -44,6 +44,7 @@
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="BundlerMinifier.Core" Version="2.8.391" />
+    <PackageReference Include="MySql.Data" Version="8.0.12" />
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
